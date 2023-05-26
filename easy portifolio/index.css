@@ -1,7 +1,7 @@
 *{padding:0; margin:0;}
 body{
     background-image:linear-gradient(#0099ff,#274d9e, #000);
-    color:rgb(23, 55, 199); 
+    color:rgb(245, 245, 245); 
     background-color:rgb(41, 39, 39);
     font-family:arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -13,8 +13,8 @@ nav{
     border-radius: 5%;
 }
 
-main{
-    padding: 5%;
+#principal{
+    min-height: 100vh;
 }
 
 ul{
@@ -29,7 +29,7 @@ a{
   text-decoration: none;
 }
 a:hover{
- color:rgb(59, 62, 207);
+ color:rgb(40, 135, 179);
  text-decoration: none;
 }
 a:active{
@@ -39,23 +39,33 @@ img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid rgb(61, 61, 252);
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .center{
     text-align:center;
 }
 h1{
-    color:rgb(5, 167, 216);
+    color:rgb(0, 255, 242);
+    text-align:center;
 }
 h2, h3, h4{
-    color: #125c79;
+    color: #000000;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
+    text-align:center;
+}
+#branco{
+    color: rgb(128, 122, 122);
 }
 p{
     color:whitesmoke;
     font-family:Times, Times, serif;
     font-size:18px;
     font-style:none;
+    text-align:center;
+}
+ol li{
+    text-align:center;
+    font-family:Times, Times, serif;    
 }
