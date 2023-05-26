@@ -1,11 +1,22 @@
-/*{padding:0; margin:0;}*/
+*{padding:0; margin:0;}
 body{
-    /*background-image:linear-gradient(rgb(31, 184, 31), black);*/
-   color:rgb(23, 55, 199); 
-   background-color:rgb(41, 39, 39);
-   font-family:arial, Helvetica, sans-serif;
-   font-weight: bold;
+    background-image:linear-gradient(#0099ff,#274d9e, #000);
+    color:rgb(23, 55, 199); 
+    background-color:rgb(41, 39, 39);
+    font-family:arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
+
+nav{
+    box-sizing: border-box;
+    background-color: rgb(19, 0, 0);
+    border-radius: 5%;
+}
+
+main{
+    padding: 5%;
+}
+
 ul{
     display:flex;
     justify-content: space-between;
@@ -14,7 +25,7 @@ ul{
     padding:16px;
 }
 a{
-  color: rgb(28, 28, 189);
+  color: rgb(252, 252, 252);
   text-decoration: none;
 }
 a:hover{
