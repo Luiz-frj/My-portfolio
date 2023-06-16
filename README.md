@@ -1,2 +1,3 @@
 # My-portfolio
 My first portfolio (in process)....
+OBS: The folders are disorganized, as soon as I have more time I'll do this task
